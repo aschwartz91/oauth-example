@@ -20,7 +20,7 @@ Setup instructions
         clientSecret: INSERT_YOUR_CLIENT_SECRET,
         airtableUrl: 'https://www.airtable.com',
         // space delimited list of Airtable scopes, update to the list of scopes you want for your integration
-        scope: 'data.records:read data.records:write',
+        scope: 'data.records:read data.records:write schema.bases:read schema.bases:write',
     };
     module.exports = config;
     ```
